@@ -11,6 +11,10 @@
 		9DAAB0361DD5B5E900014C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAB0351DD5B5E900014C18 /* ViewController.swift */; };
 		9DAAB0381DD5B5E900014C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DAAB0371DD5B5E900014C18 /* Assets.xcassets */; };
 		9DAAB03B1DD5B5E900014C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DAAB0391DD5B5E900014C18 /* Main.storyboard */; };
+		9DAAB0431DD6EBB900014C18 /* LoadJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAB0421DD6EBB900014C18 /* LoadJobViewController.swift */; };
+		9DAAB0461DD6EE3C00014C18 /* JOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAB0451DD6EE3C00014C18 /* JOB.swift */; };
+		9DAAB0481DD6EF8100014C18 /* MemoryBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAB0471DD6EF8100014C18 /* MemoryBlock.swift */; };
+		9DAAB04A1DD6F18300014C18 /* Memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAAB0491DD6F18300014C18 /* Memory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		9DAAB0371DD5B5E900014C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DAAB03A1DD5B5E900014C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DAAB03C1DD5B5E900014C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAAB0421DD6EBB900014C18 /* LoadJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadJobViewController.swift; sourceTree = "<group>"; };
+		9DAAB0451DD6EE3C00014C18 /* JOB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JOB.swift; sourceTree = "<group>"; };
+		9DAAB0471DD6EF8100014C18 /* MemoryBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryBlock.swift; sourceTree = "<group>"; };
+		9DAAB0491DD6F18300014C18 /* Memory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +60,25 @@
 		9DAAB0321DD5B5E900014C18 /* StorageManage */ = {
 			isa = PBXGroup;
 			children = (
+				9DAAB0441DD6EE2F00014C18 /* Model */,
 				9DAAB0331DD5B5E900014C18 /* AppDelegate.swift */,
 				9DAAB0351DD5B5E900014C18 /* ViewController.swift */,
 				9DAAB0371DD5B5E900014C18 /* Assets.xcassets */,
 				9DAAB0391DD5B5E900014C18 /* Main.storyboard */,
 				9DAAB03C1DD5B5E900014C18 /* Info.plist */,
+				9DAAB0421DD6EBB900014C18 /* LoadJobViewController.swift */,
+				9DAAB0491DD6F18300014C18 /* Memory.swift */,
 			);
 			path = StorageManage;
+			sourceTree = "<group>";
+		};
+		9DAAB0441DD6EE2F00014C18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DAAB0451DD6EE3C00014C18 /* JOB.swift */,
+				9DAAB0471DD6EF8100014C18 /* MemoryBlock.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DAAB04A1DD6F18300014C18 /* Memory.swift in Sources */,
 				9DAAB0361DD5B5E900014C18 /* ViewController.swift in Sources */,
 				9DAAB0341DD5B5E900014C18 /* AppDelegate.swift in Sources */,
+				9DAAB0481DD6EF8100014C18 /* MemoryBlock.swift in Sources */,
+				9DAAB0431DD6EBB900014C18 /* LoadJobViewController.swift in Sources */,
+				9DAAB0461DD6EE3C00014C18 /* JOB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
